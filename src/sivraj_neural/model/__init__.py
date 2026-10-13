@@ -1,3 +1,3 @@
-from .model import NeuralNetwork
+from .model import IntentClassifier
 
-__all__ = ["NeuralNetwork"]
+__all__ = ["IntentClassifier"]

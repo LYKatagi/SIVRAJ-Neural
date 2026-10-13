@@ -1,3 +1,5 @@
-from .train import train
+from .dataset import IntentDataset
+from .train import main
+from .trainer import Trainer
 
-__all__ = ["train"]
+__all__ = ["main", "IntentDataset", "Trainer"]

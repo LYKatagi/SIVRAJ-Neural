@@ -1,0 +1,63 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "examples": [
+                "oi",
+                "olá",
+                "bom dia",
+                "boa tarde",
+                "boa noite",
+                "e aí",
+                "olá sivraj"
+            ]
+        },
+        {
+            "tag": "farewell",
+            "examples": [
+                "tchau",
+                "até mais",
+                "falou",
+                "até logo"
+            ]
+        },
+        {
+            "tag": "gratitude",
+            "examples": [
+                "obrigado",
+                "valeu",
+                "muito obrigado",
+                "agradeço pela ajuda"
+            ]
+        },
+        {
+            "tag": "open_app",
+            "examples": [
+                "abra o vscode",
+                "abre o navegador",
+                "quero abrir o editor",
+                "inicie o aplicativo",
+                "abra o explorador de arquivos",
+                "inicie o vscode"
+            ]
+        },
+        {
+            "tag": "get_time",
+            "examples": [
+                "que horas são",
+                "me diga o horário",
+                "qual é a hora atual",
+                "me diga que horas são"
+            ]
+        },
+        {
+            "tag": "help",
+            "examples": [
+                "me ajude",
+                "o que você pode fazer",
+                "quais são suas funções",
+                "como você pode me ajudar"
+            ]
+        }
+    ]
+}
