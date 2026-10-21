@@ -1,63 +1,214 @@
 {
-    "intents": [
-        {
-            "tag": "greeting",
-            "examples": [
-                "oi",
-                "olá",
-                "bom dia",
-                "boa tarde",
-                "boa noite",
-                "e aí",
-                "olá sivraj"
-            ]
-        },
-        {
-            "tag": "farewell",
-            "examples": [
-                "tchau",
-                "até mais",
-                "falou",
-                "até logo"
-            ]
-        },
-        {
-            "tag": "gratitude",
-            "examples": [
-                "obrigado",
-                "valeu",
-                "muito obrigado",
-                "agradeço pela ajuda"
-            ]
-        },
-        {
-            "tag": "open_app",
-            "examples": [
-                "abra o vscode",
-                "abre o navegador",
-                "quero abrir o editor",
-                "inicie o aplicativo",
-                "abra o explorador de arquivos",
-                "inicie o vscode"
-            ]
-        },
-        {
-            "tag": "get_time",
-            "examples": [
-                "que horas são",
-                "me diga o horário",
-                "qual é a hora atual",
-                "me diga que horas são"
-            ]
-        },
-        {
-            "tag": "help",
-            "examples": [
-                "me ajude",
-                "o que você pode fazer",
-                "quais são suas funções",
-                "como você pode me ajudar"
-            ]
-        }
-    ]
+"intents": [
+{
+"tag": "greeting",
+"examples": [
+"Olá",
+"Oi",
+"Opa",
+"E aí",
+"Bom dia",
+"Boa tarde",
+"Boa noite",
+"Oi, tudo bem?",
+"Olá, tudo certo?",
+"Como vai?",
+"Tudo tranquilo?",
+"Salve",
+"Fala aí",
+"Oi, assistente",
+"Olá, SIVRAJ",
+"Como você está?",
+"Tudo bem por aí?",
+"E aí, beleza?",
+"Alô",
+"Oi, tudo tranquilo?",
+"Bom dia, assistente",
+"Boa tarde, SIVRAJ",
+"Boa noite, assistente",
+"Quero conversar",
+"Vamos conversar",
+"Tem alguém aí?",
+"Oi, estou aqui",
+"Saudações",
+"Olá novamente",
+"E aí, como vai?"
+]
+},
+{
+"tag": "farewell",
+"examples": [
+"Tchau",
+"Até logo",
+"Até mais",
+"Adeus",
+"Falou",
+"Até amanhã",
+"Estou indo embora",
+"Vou nessa",
+"Até a próxima",
+"Tchau, assistente",
+"Até depois",
+"Vou sair agora",
+"Preciso ir",
+"Foi bom conversar",
+"Encerrando a conversa",
+"Até mais tarde",
+"Falou, SIVRAJ",
+"Tchau por enquanto",
+"Nos vemos depois",
+"Estou indo",
+"Até breve",
+"Vou desligar agora",
+"Chega por hoje",
+"Obrigado, até mais",
+"Já vou indo",
+"Até outro dia",
+"Pode descansar",
+"Fim da conversa",
+"Vou nessa, valeu",
+"Até a próxima conversa"
+]
+},
+{
+"tag": "gratitude",
+"examples": [
+"Obrigado",
+"Obrigada",
+"Valeu",
+"Muito obrigado",
+"Muito obrigada",
+"Agradeço",
+"Agradeço pela ajuda",
+"Valeu mesmo",
+"Obrigado por ajudar",
+"Muito valeu",
+"Você ajudou bastante",
+"Obrigado pela resposta",
+"Agradeço pela resposta",
+"Valeu pela força",
+"Muito obrigado pela explicação",
+"Você foi muito útil",
+"Obrigado por tudo",
+"Agradeço muito",
+"Valeu, assistente",
+"Obrigado, SIVRAJ",
+"Essa ajuda foi ótima",
+"Obrigado pela atenção",
+"Agradeço a sua ajuda",
+"Mandou bem, obrigado",
+"Perfeito, valeu",
+"Era isso que eu precisava, obrigado",
+"Obrigado pela paciência",
+"Agradeço o suporte",
+"Valeu pela explicação",
+"Muito obrigado pela ajuda"
+]
+},
+{
+"tag": "get_time",
+"examples": [
+"Que horas são?",
+"Me diga as horas",
+"Qual é a hora atual?",
+"Pode ver a hora?",
+"Preciso saber as horas",
+"Você sabe que horas são?",
+"Me informe o horário",
+"Qual o horário agora?",
+"Veja a hora para mim",
+"Diga o horário atual",
+"Que horas temos agora?",
+"Pode consultar as horas?",
+"Quero saber a hora",
+"Me fale que horas são",
+"Qual é o horário neste momento?",
+"Confira o horário atual",
+"Pode me informar as horas?",
+"Hora atual, por favor",
+"Você pode ver o relógio?",
+"Consulte a hora",
+"Me diga o horário de agora",
+"Preciso consultar o relógio",
+"Pode verificar a hora atual?",
+"Sabe me informar o horário?",
+"Quero consultar as horas",
+"Qual hora está marcando?",
+"Informe a hora para mim",
+"Que horas são neste momento?",
+"Me mostra o horário atual",
+"SIVRAJ, que horas são?"
+]
+},
+{
+"tag": "help",
+"examples": [
+"Preciso de ajuda",
+"Pode me ajudar?",
+"Me ajude",
+"Como você pode me ajudar?",
+"O que você consegue fazer?",
+"Quais são suas funções?",
+"Quais comandos você entende?",
+"Como eu uso você?",
+"Me mostre seus recursos",
+"Estou com um problema",
+"Pode explicar como funciona?",
+"Preciso de assistência",
+"Me dê uma mão",
+"Você pode me orientar?",
+"Como posso usar o SIVRAJ?",
+"O que você sabe fazer?",
+"Me diga o que você faz",
+"Quero conhecer suas funções",
+"Pode me dar suporte?",
+"Estou precisando de ajuda",
+"Me explique seus recursos",
+"Quais tarefas você executa?",
+"Como posso interagir com você?",
+"Preciso de uma orientação",
+"Ajude-me com uma dúvida",
+"Pode esclarecer uma coisa?",
+"Quero ver seus comandos disponíveis",
+"Me ensine a usar o assistente",
+"SIVRAJ, preciso de ajuda",
+"Socorro, preciso de assistência"
+]
+},
+{
+"tag": "open_app",
+"examples": [
+"Abra o navegador",
+"Abra o bloco de notas",
+"Quero abrir o navegador",
+"Inicie o calculador",
+"Abra a calculadora",
+"Execute o VS Code",
+"Abra o Visual Studio Code",
+"Inicie o terminal",
+"Abra o terminal",
+"Quero abrir o explorador de arquivos",
+"Abra o explorador de arquivos",
+"Inicie o navegador",
+"Execute a calculadora",
+"Abra o Paint",
+"Inicie o bloco de notas",
+"Abra o gerenciador de arquivos",
+"Execute o terminal",
+"Pode abrir o navegador?",
+"Você pode iniciar a calculadora?",
+"Quero iniciar o VS Code",
+"Abra o editor de texto",
+"Inicie o Paint",
+"Execute o navegador",
+"Abra o aplicativo de calculadora",
+"Inicie o explorador de arquivos",
+"SIVRAJ, abra o terminal",
+"SIVRAJ, execute o VS Code",
+"Pode abrir o Paint?",
+"Quero iniciar o bloco de notas",
+"Abra o navegador para mim"
+]
+}
+]
 }

@@ -1,21 +1,51 @@
-from .trainer import Trainer
+import argparse
+
+from sivraj_neural.train.trainer import Trainer
 
 
 def main() -> None:
-    trainer = Trainer()
-    trainer.summary()
+    parser = argparse.ArgumentParser(
+        description="Treina o classificador de intenções do SIVRAJ-Neural."
+    )
 
-    data = trainer.prepare_data()
+    parser.add_argument(
+        "--epochs",
+        type=int,
+        default=100,
+        help="Número de épocas de treinamento.",
+    )
 
-    print("\n=== Exemplos preparados ===")
+    parser.add_argument(
+        "--learning-rate",
+        type=float,
+        default=0.001,
+        help="Taxa de aprendizado.",
+    )
 
-    for item in data[:5]:
-        print(f"Texto: {item['text']}")
-        print(f"Tokens: {item['tokens']}")
-        print(f"IDs: {item['input_ids']}")
-        print(f"Intenção: {item['tag']}")
-        print(f"Label: {item['label']}")
-        print()
+    parser.add_argument(
+        "--batch-size",
+        type=int,
+        default=8,
+        help="Quantidade de exemplos por lote.",
+    )
 
-    if __name__ == "__main__":
-        main()
+    parser.add_argument(
+        "--hidden-size",
+        type=int,
+        default=32,
+        help="Quantidade de neurônios na camada oculta.",
+    )
+
+    args = parser.parse_args()
+
+    trainer = Trainer(
+        learning_rate=args.learning_rate,
+        batch_size=args.batch_size,
+        hidden_size=args.hidden_size,
+    )
+
+    trainer.train(epochs=args.epochs)
+
+
+if __name__ == "__main__":
+    main()

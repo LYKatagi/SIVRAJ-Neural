@@ -53,7 +53,8 @@ Desktop.ini
 logs/
 
 # Machine learning
-
+*.pth
+*.pt
 models/*.pth
 models/*.pt
 models/*.ckpt
